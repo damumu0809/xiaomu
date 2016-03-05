@@ -2,14 +2,17 @@
 
 小木的程序员之路
 
-### HTML/CSS
+### 目录
 
-### JavaScript
+#### HTML/CSS
+
+#### JavaScript
 
 + [01.数据类型](./javascript/01.数据类型/数据类型.md)
-+ [闭包](./javascript/闭包.md)
++ [02.闭包](./javascript/02.闭包/闭包.md)
++ [03.循环](./javascript/03.循环/循环.md)
 
-### Node.js
+#### Node.js
 
 + [01.交互解释器](./node.js/01.交互解释器/交互解释器.md)
 + [02.回调函数](./node.js/02.回调函数/回调函数.md)
@@ -20,6 +23,13 @@
 +  [07.使用 promise 替代回调函数]
 +  [08.cookie 与 session]
 
-### React
 
-+ [React 入门实例教程 --- 阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
+### 参考资料
+
+#### JavaScript 
+
++ [ECMAScript 6 介绍](http://javascript.ruanyifeng.com/advanced/ecmascript6.html)
+
+#### React
+
++ [React 入门实例教程 --- 阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html) 
