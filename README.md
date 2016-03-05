@@ -10,7 +10,9 @@
 
 + [01.数据类型](./javascript/01.数据类型/数据类型.md)
 + [02.闭包](./javascript/02.闭包/闭包.md)
-+ [03.循环](./javascript/03.循环/循环.md)
++ 03.遍历
+	- [forEach循环遍历](./javascript/03.遍历/forEach循环遍历.md)
+	- [map遍历](./javascript/03.遍历/map遍历.md)
 
 #### Node.js
 
