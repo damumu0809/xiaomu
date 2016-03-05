@@ -35,3 +35,8 @@
 #### React
 
 + [React 入门实例教程 --- 阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html) 
+
+
+#### 其他
+
++ [前端乱炖网站2015年最受欢迎的20篇原创技术文章](http://zhuanlan.zhihu.com/yutou/20595886)
