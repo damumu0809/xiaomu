@@ -6,7 +6,7 @@
 
 ### JAVA
 
-+ [《开发环境的配置》](./lesson0/README.md) 
++ [《开发环境的配置》](./java/lesson0/README.md) 
 
 #### HTML/CSS
 
