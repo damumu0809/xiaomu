@@ -4,17 +4,20 @@
 
 ### 目录
 
+### JAVA
+
++ [《开发环境的配置》](./lesson0/README.md) 
+
 #### HTML/CSS
+
++ [CSS 常用属性](./html_css/CSS常用属性.md)
 
 #### JavaScript
 
 + [00. 代码片段](./javascript/00.代码片段)
 	- [01.JavaScript删除数组重复元素的5个高效算法](./avascript/00.代码片段/01.JavaScript删除数组重复元素的5个高效算法)
-	
 + [01.数据类型](./javascript/01.数据类型/数据类型.md)
-
 + [02.闭包](./javascript/02.闭包/闭包.md)
-
 + [03.遍历](./javascript/03.遍历)
 	- [forEach循环遍历](./javascript/03.遍历/forEach循环遍历.md)
 	- [map遍历](./javascript/03.遍历/map遍历.md)
@@ -46,3 +49,4 @@
 
 + [前端乱炖网站2015年最受欢迎的20篇原创技术文章](http://zhuanlan.zhihu.com/yutou/20595886)
 + [前端代码集合](https://github.com/wteam-xq/testDemo)
+
