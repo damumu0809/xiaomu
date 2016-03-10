@@ -57,5 +57,29 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 ### JSP 开发环境的配置
 
+#### 安装 Tomcat
+
 参考：[JSP 开发环境搭建](http://www.runoob.com/jsp/jsp-setup.html)
+
+#### 配置 tomcat-users.xml
+
+Tomcat 安装成功后，在浏览器中输入 `localhost:8080` 会出现如下界面。如果没有出现，说明没有安装成功。
+
+![tomcat](tomcat.png)
+
+右上角的三个按钮可以登录到 tomcat 后台，查看服务器运行信息。
+
+不过要先对管理员用户信息进行配置。Tomcat 的管理员配置信息在 `$TOMCAT/libexec/conf/tomcat-users.xml`，其中 `$TOMACT` 表示 Tomcat 的安装目录。配置文件 `tomcat-users.xml` XML 格式的文本文件，XML 和 HTML 类似，但 XML 语法更严格，标签可以自定义。文件内容长这样：
+
+![tomcat-user](tomcat-user.png)
+
+`<!--` 和 `-->` 中间的内容都是是注释。配置文件注释的第 23 行提到说，目前没有用户属于 `manager-gui` 这个用户组，而 `manager-gui` 用户组中的用户是用来管理 Tomcat 后台的。从命名也可以看出，该用户组主要是使用图形用户界面(GUI)进行后台管理。这里的图形界面就是值得浏览器。
+
+所以我们要添加一个属于 `manager-gui` 用户组的用户。配置格式如第 33 行至第 37 行所示。
+
+如图，其中第 39 行和第 40 行是我刚添加进去的管理员配置信息。顾名思义，`role` 就表示用户角色，`user` 表示用户信息。配置好了之后，再添加右上角的 `Server Status`，使用刚配置的用户名和秘密就可以登录了。登录后的界面长这样：
+
+![server-status](server-status.png)
+
+
 
