@@ -38,7 +38,26 @@ sudo mv ~/Downloads/jdk-8u73-linux-x64.tar.gz .
 
 ### 3. 配置环境变量
 
- 
+Ubuntu 系统环境变量的配置方法有很多种。而 JAVA 的环境变量一般情况下是需要对系统的每个用户都要生效。所以我们选择对 `/etc/profile` 文件进行配置。
 
+在终端输入：`sudo vim /etc/profile`，使用 vim 对该文件进行编辑。注意这里需要 root 权限。如果你的 Ubuntu 还没有安装 vim，那么可以通过命令 `sudo apt-get install vim` 进行安装。
+
+如图所示，需要在 `/etc/profile` 的末尾加入下面几行(其中`#`后面是注释)：
+
+```
+export JAVA_HOME=/opt/software/java/jdk1.8.0_73
+export JRE_HOME=$jAVA_HOME/jre
+export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib
+export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+```
+
+![ubuntu-java-4](ubuntu-java-4.png)
+
+
+ 然后 `:wq` 保存修改并退出 vim。
+ 
+最后需要使用 `source /etc/profile` 使变量设置在当前窗口立即生效。需注销/重启之后，才能对每个新终端窗口都生效。然后输入 `java -version` 命令，如图所示，如果出现 JAVA 的版本号，则说明安装成功。
+
+![ubuntu-java-5](ubuntu-java-5.png)
 
 
