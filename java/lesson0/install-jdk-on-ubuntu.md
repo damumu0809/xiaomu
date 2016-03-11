@@ -60,4 +60,17 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 ![ubuntu-java-5](ubuntu-java-5.png)
 
+### 4. 安装 Eclipse
+
+下载 Eclipse： [Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars2)
+
+然后同样可以在 `/opt/software` 目录下新建一个 eclipse 的子目录，并将 Eclispe 压缩包放在移动到这里进行解压。主要命令如图所示：
+
+![ubuntu-java-6](ubuntu-java-6.png)
+
+
+解压后会生成一个 `eclispe/` 目录，进入该目录然后通过 `./eclispe` 命令来运行 eclipse。如果出现 eclispe 启动界面，则安装成功。如图：
+![ubuntu-java-7](ubuntu-java-7.png)
+
+
 
