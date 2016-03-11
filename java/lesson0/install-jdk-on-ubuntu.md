@@ -31,6 +31,7 @@ sudo mv ~/Downloads/jdk-8u73-linux-x64.tar.gz .
 ![ubuntu-java-2](ubuntu-java-2.png)
 
 解压后大概是这样的：
+
 ![ubuntu-java-3](ubuntu-java-3.png)
 
 
