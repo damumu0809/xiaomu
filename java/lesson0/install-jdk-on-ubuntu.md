@@ -8,13 +8,12 @@
 
 ### 2. 解压 JDK 压缩文件
 
-首先在 `/opt` 目录下新建 `software` 目录，并在该目录下新建 `java` 目录。
+首先在 `/opt` 新建 `java` 目录，并进入该目录：
 ```
-sudo mkdir /opt/software && sudo mkdir /opt/software/java
-cd /opt/software/java
+sudo mkdir /opt/java && cd /opt/java
 ```
 
-然后将下载的软件移动到 `/opt/software/java` 目录。
+然后将下载的软件移动到 `/opt/java` 目录：
 
 ```
 sudo mv ~/Downloads/jdk-8u73-linux-x64.tar.gz .
@@ -23,7 +22,7 @@ sudo mv ~/Downloads/jdk-8u73-linux-x64.tar.gz .
 再然后解压压缩包：
 
 ```
- sudo tar -zxvf jdk-8u73-linux-x64.tar.gz
+ sudo tar zxvf jdk-8u73-linux-x64.tar.gz --strip-components=1
 ```
 
 完整命令截图如下：
@@ -45,7 +44,7 @@ Ubuntu 系统环境变量的配置方法有很多种。而 JAVA 的环境变量�
 如图所示，需要在 `/etc/profile` 的末尾加入下面几行(其中`#`后面是注释)：
 
 ```
-export JAVA_HOME=/opt/software/java/jdk1.8.0_73
+export JAVA_HOME=/opt/java/jdk1.8.0_73
 export JRE_HOME=$jAVA_HOME/jre
 export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
@@ -64,12 +63,24 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 下载 Eclipse： [Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars2)
 
-然后同样可以在 `/opt/software` 目录下新建一个 eclipse 的子目录，并将 Eclispe 压缩包放在移动到这里进行解压。主要命令如图所示：
+然后同样在 `/opt/` 目录下新建一个 `eclipse` 的子目录，并将 Eclispe 解压到该目录。命令如下：
+
+```
+sudo mkdir /opt/eclipse
+sudo tar zxvf ~/Downloads/eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz -C /opt/eclipse/ --strip-components=1
+```
 
 ![ubuntu-java-6](ubuntu-java-6.png)
 
 
-解压后会生成一个 `eclispe/` 目录，进入该目录然后通过 `./eclispe` 命令来运行 eclipse。如果出现 eclispe 启动界面，则安装成功。如图：
+Eclipse 解压后即可使用。启动命令为：
+
+```
+/opt/eclispe/eclipse
+```
+
+敲下回车后如果出现 eclispe 启动界面，则安装成功。如图：
+
 ![ubuntu-java-7](ubuntu-java-7.png)
 
 
