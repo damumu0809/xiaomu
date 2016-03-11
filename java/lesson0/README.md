@@ -82,4 +82,8 @@ Tomcat 安装成功后，在浏览器中输入 `localhost:8080` 会出现如下�
 ![server-status](server-status.png)
 
 
+### Eclipse JSP/Servlet 环境搭建
+
+1. 下载 [Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars2)
+2. 具体步骤参考：[Eclipse JSP/Servlet 环境搭建](http://www.runoob.com/jsp/eclipse-jsp.html)
 
