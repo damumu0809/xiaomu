@@ -22,7 +22,7 @@ sudo mv ~/Downloads/jdk-8u73-linux-x64.tar.gz .
 再然后解压压缩包：
 
 ```
- sudo tar zxvf jdk-8u73-linux-x64.tar.gz --strip-components=1
+ sudo tar xvf jdk-8u73-linux-x64.tar.gz --strip-components=1
 ```
 
 完整命令截图如下：
@@ -44,7 +44,7 @@ Ubuntu 系统环境变量的配置方法有很多种。而 JAVA 的环境变量�
 如图所示，需要在 `/etc/profile` 的末尾加入下面几行(其中`#`后面是注释)：
 
 ```
-export JAVA_HOME=/opt/java/jdk1.8.0_73
+export JAVA_HOME=/opt/java/
 export JRE_HOME=$jAVA_HOME/jre
 export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
