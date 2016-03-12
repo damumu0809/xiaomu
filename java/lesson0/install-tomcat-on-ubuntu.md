@@ -34,7 +34,7 @@ sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 ```
 
-### 安装 Tomcat
+### 3. 安装 Tomcat
 
 #### 下载 Tomcat 二进制文件
 
@@ -94,7 +94,7 @@ sudo vim bin/setenv.sh
 ![ubuntu-tomcat-3](ubuntu-tomcat-3.png)
 
 
-环境变量设置完毕后就可以通过 `catalina.sh` 命令来启动 Tomcat 了。如图：
+环境变量设置完毕后就可以通过 `catalina.sh` 命令来启动 Tomcat 了。因为现在是在 `/opt/tomcat` 目录下，所以可以使用如图所示的命令来启动 Tomcat：
 
 ```
 sudo bin/catalina.sh start
@@ -102,10 +102,48 @@ sudo bin/catalina.sh start
 
 ![ubuntu-tomcat-4.png](ubuntu-tomcat-4.png)
 
+
+如果你是在别的目录下，也可以通过 `sudo /opt/tomcat/bin/catalina.sh start` 命令来启动 Tomcat 服务。
+
 一切正常的话，就会提示 Tomcat 启动成功，那么 Tomcat。然后在浏览器中输入 `localhost:8080` 就可以看到 Tomcat 的主界面：
 
 ![ubuntu-tomcat-5.png](ubuntu-tomcat-5.png)
 
 
+### 4. 配置 Web 管理员接口
 
+Tomcat 提供了一个图形用户界面的管理后台，来方便我们管理使用 Tomcat 的 Web 应用。在 Tomcat 主页点击右上角的 `Server Status` 按钮，会弹出一个登录框，输入用户名和密码就可登录。但 Tomcat 安装后是没有默认的管理员帐户的，需要我们自己去配置。
+
+如果登录的时候密码错误，就会出现一个 `401 Unauthorized` 的错误页面，这个页面上有提示信息，告诉我们应该怎么去配置管理员帐户：
+
+![ubuntu-tomcat-6.png](ubuntu-tomcat-6.png)
+
+
+接下来就来配置管理员帐户。Tomcat 后台管理员配置文件是 `/opt/tomcat/conf/tomcat-users.xml`，所以我们要编辑该文件：
+
+```
+sudo vim /opt/tomcat/conf/tomcat-users.xml
+```
+然后在最后一行的前面加上如下两行，username 和 password 可自行设置：
+
+```
+<role rolename="manager-gui" />
+<user username="admin" password="password" roles="manager-gui"/>
+``` 
+
+![ubuntu-tomcat-7.png](ubuntu-tomcat-7.png)
+
+
+编辑完了后保存，然后再重新启动 Tomcat 服务：
+
+```
+sudo /opt/tomcat/bin/catalina.sh stop
+sudo /opt/tomcat/bin/catalina.sh start
+```
+
+重启后，再点击 `Server Status` 按钮，输入刚设置的用户名和密码就可以登录到后台：
+
+![ubuntu-tomcat-8.png](ubuntu-tomcat-8.png)
+
+至此，Tomcat 就安装成功！
 
