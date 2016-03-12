@@ -44,9 +44,9 @@ Ubuntu 系统环境变量的配置方法有很多种。而 JAVA 的环境变量�
 如图所示，需要在 `/etc/profile` 的末尾加入下面几行(其中`#`后面是注释)：
 
 ```
-export JAVA_HOME=/opt/java/
-export JRE_HOME=$jAVA_HOME/jre
-export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib
+export JAVA_HOME=/opt/java
+export JRE_HOME=$JAVA_HOME/jre
+export CLASSPATH=.:$CLASS_PATH:$JAVA_HOME/lib:$JRE_HOME/lib
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ```
 
