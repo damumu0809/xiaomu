@@ -7,6 +7,7 @@
 + 《开发环境的配置》
 	- [Ubuntu 下 Tomcat 的配置](./java/lesson0/install-jdk-on-ubuntu.md)
 	- [Ubuntu 下 Tomcat 的配置](./java/lesson0/install-tomcat-on-ubuntu.md)
+	- [Eclipse JSP/Servlet 环境搭建](./java/lesson0/install-eclipse-jsp-servlet-develop-environment.md)
 	
 #### HTML/CSS
 
@@ -29,10 +30,10 @@
 + [03.事件循环](./node.js/03.事件循环/事件循环.md)
 + [04.使用 superagent 与 cheerio 完成简单爬虫](./node.js/04.使用superagent与cheerio完成简单爬虫)
 + [05.使用 eventproxy 控制并发](./node.js/05.使用eventproxy控制并发/使用eventproxy控制并发.md)
-+  [06.使用 async 控制并发]
-+  [07.使用 promise 替代回调函数]
-+  [08.cookie 与 session]
 
+#### Linux
+
++ [Ubuntu 下安装 fcitx 拼音输入法](./linux/how-to-install-fcitx-on-ubuntu.md)
 
 ### 参考资料
 

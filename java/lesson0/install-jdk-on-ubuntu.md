@@ -1,4 +1,4 @@
-## Ubuntu下JAVA开发环境的配置
+## Ubuntu下 JAVA 开发环境的配置
 
 ### 1. 下载 JDK
 

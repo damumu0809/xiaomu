@@ -3,7 +3,7 @@
 ### 1. 安装 JAVA
 
 在安装 Tomcat 之前，必须得先安装 JDK 或 JRE。
-JRE 是JAVA 程序运行的基础，它提供了 JVM 等 JAVA 运行环境。而 JDK 是给开发JAVA程序的人员提供了包括JRE在内的基本环境以及一些开发工具，例如 JAVAC。
+JRE 是JAVA 程序运行的基础，它提供了 JVM 等 JAVA 运行环境。而 JDK 是给开发JAVA程序的人员提供了包括 JRE 在内的基本环境以及一些开发工具，例如 JAVAC。
 Tomcat 是使用 JAVA 进行 Web 开发的应用服务器（Application Server）软件。当从网络上有请求到达 Tomcat 服务器时，它会根据请求的地址来调用你写的 JAVA 程序模块。
 
 简单来说，假设 `http://xxx.com` 是一个 Java 写的网站，那么当在浏览器输入网址并敲下回车后，Tomcat 会得到一个希望访问 `/`（根目录资源）的请求。然后它去配置文件里查根目录对应的模块是什么。假设查到的模块是 `root` 这个类，那么它会去调用 `root.doGet()` 方法。而你写一个 Servlet 的时候，必须实现 `doGet()`方法，此时你的方法被调用，那么你写的代码就运行了。

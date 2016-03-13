@@ -27,7 +27,12 @@ sudo apt-get update
 sudo apt-get install fcitx-pinyin 
 ```
 
----
+安装后重启，系统右上角菜单栏就会有个小企鹅图标了，点击它就可以切换中英文。当然还有快捷键切换，自己摸索啦！
+
+
+### 3. 其它
+
+将系统设置为中文：[Linux Ubuntu：系统怎么设置成中文语言](http://jingyan.baidu.com/article/5553fa82cedaa265a2393420.html)
 
 参考：
 
