@@ -5,7 +5,7 @@
 ### JAVA
 
 + 《开发环境的配置》
-	- [Ubuntu 下 Tomcat 的配置](./java/lesson0/install-jdk-on-ubuntu.md)
+	- [Ubuntu 下 JAVA 的配置](./java/lesson0/install-jdk-on-ubuntu.md)
 	- [Ubuntu 下 Tomcat 的配置](./java/lesson0/install-tomcat-on-ubuntu.md)
 	- [Eclipse JSP/Servlet 环境搭建](./java/lesson0/install-eclipse-jsp-servlet-develop-environment.md)
 	
