@@ -1,0 +1,42 @@
+.whole{
+	width:600px;
+  position:relative;
+	left:50%;
+	margin-left:-300px;
+}   
+
+h1{
+	text-align: center;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+table tr td{
+	text-align: center;
+	border: 1px solid;
+	width: 120px;
+	height: 70px;
+}
+
+
+.text1{
+	border: 1px solid;
+	float: left;
+	height: 200px;
+	width: 298px;
+}
+
+.text2{
+	border: 1px solid;
+	float: left;
+	height: 200px;
+	width: 298px;
+	text-align: right;
+}
+
+.text3{
+	padding-top: 165px;
+	/*vertical-align: text-bottom;*/
+}

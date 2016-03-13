@@ -1,6 +1,6 @@
+<%@ page language="java" import="java.util.*" contentType="text/html; charset=utf-8" %> 
 <html>
   <head>
-    <meta charset="utf-8" />
     <title>Hello World</title>
     <style type="text/css">
 table {
