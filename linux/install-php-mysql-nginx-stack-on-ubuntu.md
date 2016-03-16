@@ -67,7 +67,8 @@ sudo apt-get install mysql-server
 安装成功后，可以使用 `sudo service mysql` 命令对 MySQL 进行管理。
 
 ```
-jh@ubuntu:~$ sudo service mysqlUsage: /etc/init.d/mysql start|stop|restart|reload|force-reload|status
+jh@ubuntu:~$ sudo service mysql
+Usage: /etc/init.d/mysql start|stop|restart|reload|force-reload|status
 ```
 
 如上，其中 `sudo service mysql` 后面的参数可以是 `start|stop|restart|reload|force-reload|status`。例如 `sudo service mysql restart` 就是重启 MySQL。
@@ -93,7 +94,7 @@ sudo vim /etc/php5/fpm/php.ini
 
 在 VIM 中找到 `cgi.fix_pathinfo` 所在的这一行，取消注释并将其值设置为 0。
 
-VIM 在命令模式（command-mode）下可以使用正则表达式来查找。一般使用 `vim xxx.xx` 打开文件后，VIM 是处于正常模式（normal-mode）的。 如果现在是插入模式（insert-mode），先按 `ESC` 进入正常模式（normal-mode），然后输入英文冒号 `:` 进入命令模式，再然后输入 `/cgi.fix_pathinfo`，回车，就能找到 `cgi.fix_pathinfo` 这一行了。接下来再按 `i` 今日编辑模式进行编辑。
+VIM 在命令模式（command-mode）下可以使用正则表达式来查找。一般使用 `vim xxx.xx` 打开文件后，VIM 是处于正常模式（normal-mode）的。 如果现在是插入模式（insert-mode），先按 `ESC` 进入正常模式（normal-mode），然后输入英文冒号 `:` 进入命令模式，再然后输入 `/cgi.fix_pathinfo`，回车，就能找到 `cgi.fix_pathinfo` 这一行了。接下来再按 `i` 进入编辑模式进行编辑。
 
 ![lemp-5.png](lemp-5.png)
 
@@ -161,7 +162,7 @@ Nginx 首先会读取自身默认的配置，然后读取 `/ect/nginx/conf.d` �
 
 ```
 cd /etc/nginx/conf.d
-sudo vim nginx.default.conf.d
+sudo vim nginx.default.conf
 ```
 
 然后将下面的内容添加进去：
