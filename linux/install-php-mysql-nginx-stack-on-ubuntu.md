@@ -245,7 +245,7 @@ wget https://files.phpmyadmin.net/phpMyAdmin/4.5.5.1/phpMyAdmin-4.5.5.1-all-lang
 sudo tar zxvf phpMyAdmin-4.5.5.1-all-languages.tar.gz -C /usr/share/nginx/html/ 
 ```
 
-解压后默认的目录明称是 ` phpMyAdmin-4.5.5.1-all-languages/`，为了方便，我们还要将其重命名为 `phpmyadmin`。更改文件/目录名，使用 `mv` 命令：
+解压后默认的目录名称是 ` phpMyAdmin-4.5.5.1-all-languages/`，为了方便，我们还要将其重命名为 `phpmyadmin`。更改文件/目录名，使用 `mv` 命令：
 
 ```
 cd /usr/share/nginx/html/
