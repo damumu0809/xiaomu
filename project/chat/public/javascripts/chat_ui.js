@@ -1,9 +1,9 @@
 function divEscapedContentElement(message) {
-  return $('<div></div>').text(message);
+  return $('<div class="message-1"></div>').text(message);
 }
 
 function divSystemContentElement(message) {
-  return $('<div></div>').html('<i>' + message + '</i>');
+  return $('<div class="message-2"></div>').html('<i>' + message + '</i>');
 }
 
 function processUserInput(chatApp, socket) {
@@ -33,7 +33,7 @@ $(document).ready(function() {
     var message;
 
     if (result.success) {
-      message = 'You are now known as ' + result.name + '.';
+      message = '您的昵称是: ' + result.name + '.';
     } else {
       message = result.message;
     }
@@ -42,7 +42,7 @@ $(document).ready(function() {
 
   socket.on('joinResult', function(result) {
     $('#room').text(result.room);
-    $('#messages').append(divSystemContentElement('Room changed.'));
+    $('#messages').append(divSystemContentElement('进入聊天室.'));
   });
 
   socket.on('message', function (message) {
@@ -75,5 +75,12 @@ $(document).ready(function() {
   $('#send-form').submit(function() {
     processUserInput(chatApp, socket);
     return false;
+  });
+
+  // 设置昵称
+  $('#set-nickname').click(function() {
+    var command = '/nick ' + $('#nickname').val();
+    chatApp.processCommand(command);
+    $('#send-message').focus();
   });
 });

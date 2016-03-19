@@ -22,7 +22,7 @@ exports.listen = function(server) {
 };
 
 function assignGuestName(socket, guestNumber, nickNames, namesUsed) {
-  var name = 'Guest' + guestNumber;
+  var name = '访客' + guestNumber;
   nickNames[socket.id] = name;
   socket.emit('nameResult', {
     success: true,
@@ -37,12 +37,14 @@ function joinRoom(socket, room) {
   currentRoom[socket.id] = room;
   socket.emit('joinResult', {room: room});
   socket.broadcast.to(room).emit('message', {
-    text: nickNames[socket.id] + ' has joined ' + room + '.'
+//    text: nickNames[socket.id] + ' 加入聊天室' + room + '.'
+    text: nickNames[socket.id] + ' 加入聊天室.'
   });
 
   var usersInRoom = io.sockets.clients(room);
   if (usersInRoom.length > 1) {
-    var usersInRoomSummary = 'Users currently in ' + room + ': ';
+    //var usersInRoomSummary = '当前聊天室的参与者有: ' + room + ': ';
+    var usersInRoomSummary = '当前聊天室的参与者有' + ': ';
     for (var index in usersInRoom) {
       var userSocketId = usersInRoom[index].id;
       if (userSocketId != socket.id) {
@@ -62,7 +64,7 @@ function handleNameChangeAttempts(socket, nickNames, namesUsed) {
     if (name.indexOf('Guest') == 0) {
       socket.emit('nameResult', {
         success: false,
-        message: 'Names cannot begin with "Guest".'
+        message: '昵称不能为 "访客".'
       });
     } else {
       if (namesUsed.indexOf(name) == -1) {
@@ -76,12 +78,12 @@ function handleNameChangeAttempts(socket, nickNames, namesUsed) {
           name: name
         });
         socket.broadcast.to(currentRoom[socket.id]).emit('message', {
-          text: previousName + ' is now known as ' + name + '.'
+          text: previousName + ' 现在的昵称是: ' + name + '.'
         });
       } else {
         socket.emit('nameResult', {
           success: false,
-          message: 'That name is already in use.'
+          message: '该昵称已经被占用.'
         });
       }
     }

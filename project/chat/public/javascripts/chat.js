@@ -35,7 +35,7 @@ Chat.prototype.processCommand = function(command) {
       this.socket.emit('nameAttempt', name);
       break;
     default:
-      message = 'Unrecognized command.';
+      message = '';
       break;
   };
 
