@@ -8,5 +8,5 @@
 | 2016.03.16 | 1.继续完成[Eclipse JSP/Servlet 环境搭建](./java/lesson0/install-eclipse-jsp-servlet-develop-environment.md)<br/>2.[配置LEMP开发环境](./linux/install-php-mysql-nginx-stack-on-ubuntu.md)|是|2016.03.16|学习了一天，nice！不能熬夜，睡觉！|
 | 2016.03.17 | 1.继续完成[配置LEMP开发环境](./linux/install-php-mysql-nginx-stack-on-ubuntu.md)<br/>2.算法设计作业<br/>3.[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|是|2016.03.17|算法题稍微有些复杂，不记得C++|
 | 2016.03.18 | 1.继续完成[配置LEMP开发环境](./linux/install-php-mysql-nginx-stack-on-ubuntu.md)<br/>2.继续完成[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)，并将解题思路push到Github<br/>|否|||
-| 2016.03.19 | 1.继续完成[配置LEMP开发环境](./linux/install-php-mysql-nginx-stack-on-ubuntu.md)<br/>2.继续完成[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)，并将解题思路push到Github<br/>3.使用Node.js构建实时聊天时||||
+| 2016.03.19 | 1.继续完成[配置LEMP开发环境](./linux/install-php-mysql-nginx-stack-on-ubuntu.md)<br/>2.继续完成[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)，并将解题思路push到Github<br/>3.使用Node.js构建实时聊天室||||
 
