@@ -50,4 +50,5 @@
 
 + [前端乱炖网站2015年最受欢迎的20篇原创技术文章](http://zhuanlan.zhihu.com/yutou/20595886)
 + [前端代码集合](https://github.com/wteam-xq/testDemo)
++ [正则表达式30分钟入门教程](http://www.jb51.net/tools/zhengze.html)
 
