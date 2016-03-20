@@ -1,0 +1,1 @@
+export LD_PRELOAD=/opt/sublime_text/libsublime-imfix.so
