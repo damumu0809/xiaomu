@@ -10,4 +10,6 @@
 | 2016.03.18 | 1.继续完成[配置LEMP开发环境](./linux/install-php-mysql-nginx-stack-on-ubuntu.md)<br/>2.继续完成[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)，并将解题思路push到Github<br/>|否|||
 | 2016.03.19 | 1.继续完成[配置LEMP开发环境](./linux/install-php-mysql-nginx-stack-on-ubuntu.md)<br/>2.继续完成[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)，并将解题思路push到Github<br/>3.使用Node.js构建实时聊天室<br/>4.[学习使用MarkDown语法](./pages/markdown.md)|是|2016.03.19||
 | 2016.03.20 | 1.在腾讯云服务器上[配置LEMP开发环境](./linux/install-php-mysql-nginx-stack-on-ubuntu.md)<br/>2.购买域名并在服务器上配置网站<br/>3.[学习使用MarkDown语法](./pages/markdown.md)<br/>4.完成研究开发实践老师布置的部分作业|是|2016.03.21||
+| 2016.03.20 | 1.完成研究开发实践老师布置的剩余作业||||
+
 
