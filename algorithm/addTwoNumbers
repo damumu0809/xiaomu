@@ -1,0 +1,60 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode* l = new ListNode(1) ;
+    
+        ListNode* p = l;
+        ListNode* p1 = l1;
+        ListNode* p2 = l2;
+        
+        //发现p=p->next;为NULL;p=new ListNode(0);并没有添加到链表上！！！
+        //补全位数
+        for(;(p1->next != NULL ) && (p2->next != NULL); p1 = p1->next, p2 = p2->next){}
+            
+        if(p1->next != NULL){
+             for(; p1->next != NULL; p1 = p1 ->next,p2 = p2->next)
+                  p2->next = new ListNode(0);
+         }
+            
+         else{
+            for(; p2->next != NULL; p1 = p1 ->next,p2 = p2->next)
+                p1 ->next = new ListNode(0);
+        }
+        
+        //按位相加包括进位
+        int add = 0;
+        for(p1 = l1, p2 = l2; p1->next != NULL; p = p->next, p1 = p1->next, p2 = p2->next){
+            
+            p->next = new ListNode(0);
+                 
+            if((p1->val + p2->val + add )>= 10){
+                p->val = p1-> val + p2->val + add - 10;
+                add = 1;
+            }
+            else{
+                p->val = p1-> val + p2->val + add;
+                add = 0;
+            }
+            
+        }
+        
+        if((p1->val + p2->val + add )>= 10){
+                p->val = p1-> val + p2->val + add - 10;
+                p->next= new ListNode(1);
+            }
+            else{
+                p->val = p1-> val + p2->val + add;
+            }
+
+        return l;
+        
+    }
+};
