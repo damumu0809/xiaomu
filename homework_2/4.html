@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>4</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function verify(){
+			var phoneNumber = document.getElementById("phone").value;
+			var reg = /^1[0-9]{10}$/;
+			if(!reg.test(phoneNumber))
+				alert("手机号错误！");
+			else
+				alert("手机号正确！");
+		}
+	</script>
+</head>
+
+<body>
+	<form>
+		手机号码：
+		<input  type="text" name="phoneNumber" id="phone" />
+		<button  type="button"  onclik="verify()"  >提交</button> 
+	</form> 
+
+
+
+</body>
+</html>
