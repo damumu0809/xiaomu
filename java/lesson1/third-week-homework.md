@@ -18,3 +18,25 @@
 
 
 
+---
+
+## ISSUE
+
+### 第5题
+
+第5题（2）我觉得老师的表述有问题。
+
+我觉得要实现的效果应该是：
+
+首先 a.jsp 通过 AJAX 来请求 b.jsp；然后 b.jsp 返回一个 JSON 格式的 URL，这个 URL 的值就是 c.jsp；再然后，a.jsp 得到 URL 的值后，通过 JS 跳转到 c.jsp。
+
+JS 的页面跳转方法为 `location.href = url`。
+
+我写的代码目录为：[./class/nodejh/研究开发与实践/第四周作业/5](./class/nodejh/研究开发与实践/第四周作业/5/a.jsp)，可参考一下。
+
+然后，如果 b.jsp 里面有 HTML，是无法正确返回 JSON 格式的。不管 PHP 还是 JSP 不能有 HTML，不然返回的就是一个 HTML 文本。所以 b.jsp 里面就只应该有输出 JSON 的代码，如：
+
+```
+<% out.println("{\"url\":\"c.jsp\"}"); %>
+```
+
