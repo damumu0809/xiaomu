@@ -61,8 +61,11 @@ $ mysql -uroot -p
 输入密码后，就可以进入 MySQL 的控制台。然后创建 `school` 数据库：
 
 ```
-mysql> create database school; 
+mysql> create database school default character set utf8;
 ```
+
+这里在创建表的时候，指定了字符集为 `utf8`，主要是为了避免中文乱码的问题。
+
 
 接下来在 `school` 这个数据库里面创建一张 `student` 表：
 ```
@@ -88,5 +91,50 @@ mysql> INSERT INTO student VALUES (102, 20, '小小', '女');
 
 ### 5. 使用 JSP 连接数据库
 
+下面这段代码展示了如何连接数据库，并从数据库中查询信息：
 
+```
+<%@ page import="java.io.*,java.util.*,java.sql.*"%>
+<%@ page import="javax.servlet.http.*,javax.servlet.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
+ 
+<html>
+<head>
+<title>SELECT Operation</title>
+</head>
+<body>
+ 
+<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
+     url="jdbc:mysql://localhost/school"
+     user="root"  password="root"/>
+ 
+<sql:query dataSource="${snapshot}" var="result">
+SELECT * from student;
+</sql:query>
+ 
+<table border="1">
+<tr>
+   <th>Student ID</th>
+   <th>Name</th>
+   <th>Age</th>
+   <th>Sex</th>
+</tr>
+<c:forEach var="row" items="${result.rows}">
+<tr>
+   <td><c:out value="${row.id}"/></td>
+   <td><c:out value="${row.name}"/></td>
+   <td><c:out value="${row.age}"/></td>
+   <td><c:out value="${row.sex}"/></td>
+</tr>
+</c:forEach>
+</table>
+ 
+</body>
+</html>
+```
+
+访问这个 JSP 例子，运行结果如下：
+
+![jsp-mysql](jsp-mysql-1.png)
 
