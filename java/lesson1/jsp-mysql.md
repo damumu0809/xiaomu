@@ -134,7 +134,7 @@ SELECT * from student;
 </html>
 ```
 
-访问这个 JSP 例子，运行结果如下：
+其中第 13 行 `<sql:setDataSource />` 标签主要是数据库信息的配置，`user` 是`数据库用户名`，	`password` 是数据库密码，将其改为你的数据库用户名和密码。然后访问这个 JSP 例子，运行结果如下：
 
 ![jsp-mysql](jsp-mysql-1.png)
 
