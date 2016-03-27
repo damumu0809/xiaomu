@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登记</title>
+</head>
+<body>
+
+<form action="action.jsp" method="get">
+	<fieldset>
+		<legend>登记学生信息</legend>
+		<div>
+			<label>姓名</label>
+			<input type="text" name="name" placeholder="请输入您的姓名">
+		</div>
+		<div>
+			<label>性别:</label>
+			<input type="radio" name="sex" value="男">男
+			<input type="radio" name="sex" value="女">女
+		</div>
+		<div>
+			<label>年龄:</label>
+			<select name="age">
+				<option selected>请选择您的年龄</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="25">24</option>
+				<option value="25">25</option>
+			</select>
+		</div>
+		<div>
+			<button type="submit">提交</button>
+		</div>
+	</fieldset>
+</form>
+</body>
+</html>
