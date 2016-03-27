@@ -17,7 +17,8 @@ Apache Tomcat 安装JSTL 库步骤如下：
 
 ```
 $ wget http://archive.apache.org/dist/jakarta/taglibs/standard/binaries/jakarta-taglibs-standard-1.1.2.tar.gz
-$ tar -zxvf jakarta-taglibs-standard-1.1.2.tar.gz
+
+$ tar -zxvf jakarta-taglibs-standard-1.1.2.tar.gz
 
 $ cp jakarta-taglibs-standard-1.1.2/lib/standard.jar /opt/tomcat8/webapps/ROOT/WEB-INF/lib/
 
@@ -33,7 +34,9 @@ JDBC（Java Data Base Connectivity,java 数据库连接）是一种用于执行 
 当然，也可以在终端使用 `wget` 进行下载。下载后解压，并将压缩包里面的 放在`/WEB-INF/lib/` 下
 
 ```
-$ wget http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.38.tar.gz$ tar -zxvf mysql-connector-java-5.1.38.tar.gz
+$ wget http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.38.tar.gz
+
+$ tar -zxvf mysql-connector-java-5.1.38.tar.gz
 
 $ cp mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar /opt/tomcat8/webapps/ROOT/WEB-INF/lib/
 ```
@@ -138,4 +141,7 @@ SELECT * from student;
 其中第 13 行 `<sql:setDataSource />` 标签主要是数据库信息的配置，`user` 是`数据库用户名`，	`password` 是数据库密码，将其改为你的数据库用户名和密码。然后访问这个 JSP 例子，运行结果如下：
 
 ![jsp-mysql](jsp-mysql-1.png)
+
+
+test
 
