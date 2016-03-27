@@ -65,7 +65,6 @@ $ mysql -uroot -p
 
 ```
 mysql> create database school default character set utf8;
-<<<<<<< HEAD
 ```
 
 这里在创建表的时候，指定了字符集为 `utf8`，主要是为了避免中文乱码的问题。
@@ -111,7 +110,7 @@ mysql> INSERT INTO student VALUES (null, 20, '小小', '女');
 <body>
  
 <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
-     url="jdbc:mysql://localhost/school"
+     url="jdbc:mysql://localhost/school?useUnicode=true&characterEncoding=UTF-8"
      user="root"  password="root"/>
  
 <sql:query dataSource="${snapshot}" var="result">
@@ -147,7 +146,7 @@ SELECT * from student;
 ### 6. 使用占位符插入数据到数据库
 
 ```
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %><%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %><!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>登记学生信息</title></head><body><%String name = request.getParameter("name");String sex = request.getParameter("sex");int age = Integer.parseInt(request.getParameter("age"));%><sql:setDataSource var="mysql" driver="com.mysql.jdbc.Driver"	url="jdbc:mysql://localhost/school"	user="root" password="root" /><sql:update dataSource="${mysql}" var="result">INSERT INTO `student` VALUES (null, ?, ?, ?);	<sql:param value="<%= name %>" />	<sql:param value="<%= sex %>" />	<sql:param value="<%= age %>" /></sql:update><c:out value="${result}" /></body></html>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %><%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %><!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>登记学生信息</title></head><body><%String name = request.getParameter("name");String sex = request.getParameter("sex");int age = Integer.parseInt(request.getParameter("age"));%><sql:setDataSource var="mysql" driver="com.mysql.jdbc.Driver"	url="jdbc:mysql://localhost/school?useUnicode=true&characterEncoding=UTF-8"	user="root" password="root" /><sql:update dataSource="${mysql}" var="result">INSERT INTO `student` VALUES (null, ?, ?, ?);	<sql:param value="<%= name %>" />	<sql:param value="<%= sex %>" />	<sql:param value="<%= age %>" /></sql:update><c:out value="${result}" /></body></html>
 ```
 
 

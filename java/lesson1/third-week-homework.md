@@ -110,9 +110,10 @@ INSERT INTO student SET id=null,name=?,sex=?,age=?;
 #### 4) 代码示例
 
 
-第 7 题 (2) 参考： [/class/nodejh/研究开发与实践/第四周作业/7_2](/class/nodejh/研究开发与实践/第四周作业/7_2/add.jsp)。
+第 7 题 (2) 参考： [/class/nodejh/研究开发与实践/第四周作业/7_2](/class/nodejh/研究开发与实践/第四周作业/7_2/add.html)。
 
-第 7 题 (3) 参考：
+第 7 题 (3) 参考：[/class/nodejh/研究开发与实践/第四周作业/7_2](/class/nodejh/研究开发与实践/第四周作业/7_3/add.html)。
+
 
 
 
