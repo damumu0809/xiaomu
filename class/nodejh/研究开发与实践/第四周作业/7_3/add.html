@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登记学生信息</title>
+</head>
+<body>
+
+<form id="form" action="action.jsp" method="get">
+	<fieldset>
+		<legend>登记学生信息</legend>
+		<div>
+			<label>姓名</label>
+			<input type="text" id="name" name="name" placeholder="请输入您的姓名">
+		</div>
+		<div>
+			<label>性别:</label>
+			<input type="radio" name="sex" value="男">男
+			<input type="radio" name="sex" value="女">女
+		</div>
+		<div>
+			<label>年龄:</label>
+			<select id="select" name="age">
+				<option value="0">请选择您的年龄</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="25">24</option>
+				<option value="25">25</option>
+			</select>
+		</div>
+		<div>
+			<button type="button" id="button">提交</button>
+		</div>
+	</fieldset>
+</form>
+</body>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	// 监听 button 的点击事件
+	$('#button').click(function () {
+		// 获取表单的值
+		var name = $('#name').val();  // 这里使用的 ID 选择器
+
+		// input[name="sex"] 表示获取到 #from 这个标签里 name="sex" 的 input 标签
+		// input[name="sex"]:checked 表示获取到 name="sex" 且具有 checked 属性的 input 标签
+		// 因为用户一旦点击了某个 radio,浏览器就会给被选中的 radio 加上 checked 属性
+		var sex = $('#form input[name="sex"]:checked').val();
+		var age = $('#select option:checked').val();
+		
+		// 将从表单获取的值存入 data 变量
+		var data = {
+			name: name,
+			sex: sex,
+			age: age
+		};	
+		console.log(data);
+
+		// 通过 AJAX 向后台提交值
+		$.post('action.jsp', data, function(res) {
+			console.log(res);
+			var result = $.parseJSON(res);
+			console.log(result);
+			if (result.code == 0)  {
+				// 如果 code 的值为 0,说明插入成功 
+				alert('插入成功!')
+			} else {
+				alert('插入失败!');
+			}
+		});
+	});
+</script>
+
+</html>
