@@ -32,11 +32,16 @@
 
 JS 的页面跳转方法为 `location.href = url`。
 
-我写的代码目录为：[./class/nodejh/研究开发与实践/第四周作业/5](./class/nodejh/研究开发与实践/第四周作业/5/a.jsp)，可参考一下。
+我写的代码目录为：[/class/nodejh/研究开发与实践/第四周作业/5](./class/nodejh/研究开发与实践/第四周作业/5/a.jsp)，可参考一下。
 
 然后，如果 b.jsp 里面有 HTML，是无法正确返回 JSON 格式的。不管 PHP 还是 JSP 不能有 HTML，不然返回的就是一个 HTML 文本。所以 b.jsp 里面就只应该有输出 JSON 的代码，如：
 
 ```
 <% out.println("{\"url\":\"c.jsp\"}"); %>
 ```
+
+### 第6题
+
+参考： [/class/nodejh/研究开发与实践/第四周作业/6](/class/nodejh/研究开发与实践/第四周作业/6/action.jsp) 。
+
 
