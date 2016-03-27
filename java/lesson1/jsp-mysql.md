@@ -17,7 +17,8 @@ Apache Tomcat 安装JSTL 库步骤如下：
 
 ```
 $ wget http://archive.apache.org/dist/jakarta/taglibs/standard/binaries/jakarta-taglibs-standard-1.1.2.tar.gz
-$ tar -zxvf jakarta-taglibs-standard-1.1.2.tar.gz
+
+$ tar -zxvf jakarta-taglibs-standard-1.1.2.tar.gz
 
 $ cp jakarta-taglibs-standard-1.1.2/lib/standard.jar /opt/tomcat8/webapps/ROOT/WEB-INF/lib/
 
@@ -33,7 +34,9 @@ JDBC（Java Data Base Connectivity,java 数据库连接）是一种用于执行 
 当然，也可以在终端使用 `wget` 进行下载。下载后解压，并将压缩包里面的 放在`/WEB-INF/lib/` 下
 
 ```
-$ wget http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.38.tar.gz$ tar -zxvf mysql-connector-java-5.1.38.tar.gz
+$ wget http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.38.tar.gz
+
+$ tar -zxvf mysql-connector-java-5.1.38.tar.gz
 
 $ cp mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar /opt/tomcat8/webapps/ROOT/WEB-INF/lib/
 ```
@@ -62,6 +65,7 @@ $ mysql -uroot -p
 
 ```
 mysql> create database school default character set utf8;
+<<<<<<< HEAD
 ```
 
 这里在创建表的时候，指定了字符集为 `utf8`，主要是为了避免中文乱码的问题。
@@ -145,5 +149,4 @@ SELECT * from student;
 ```
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %><%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %><!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>登记学生信息</title></head><body><%String name = request.getParameter("name");String sex = request.getParameter("sex");int age = Integer.parseInt(request.getParameter("age"));%><sql:setDataSource var="mysql" driver="com.mysql.jdbc.Driver"	url="jdbc:mysql://localhost/school"	user="root" password="root" /><sql:update dataSource="${mysql}" var="result">INSERT INTO `student` VALUES (null, ?, ?, ?);	<sql:param value="<%= name %>" />	<sql:param value="<%= sex %>" />	<sql:param value="<%= age %>" /></sql:update><c:out value="${result}" /></body></html>
 ```
-
 
