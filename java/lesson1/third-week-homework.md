@@ -32,7 +32,7 @@
 
 JS 的页面跳转方法为 `location.href = url`。
 
-我写的代码目录为：[/class/nodejh/研究开发与实践/第四周作业/5](./class/nodejh/研究开发与实践/第四周作业/5/a.jsp)，可参考一下。
+我写的代码目录为：[/class/nodejh/研究开发与实践/第四周作业/5](/class/nodejh/研究开发与实践/第四周作业/5/a.jsp)，可参考一下。
 
 然后，如果 b.jsp 里面有 HTML，是无法正确返回 JSON 格式的。不管 PHP 还是 JSP 不能有 HTML，不然返回的就是一个 HTML 文本。所以 b.jsp 里面就只应该有输出 JSON 的代码，如：
 
@@ -40,8 +40,79 @@ JS 的页面跳转方法为 `location.href = url`。
 <% out.println("{\"url\":\"c.jsp\"}"); %>
 ```
 
-### 第6题
+### 第7题
 
-参考： [/class/nodejh/研究开发与实践/第四周作业/6](/class/nodejh/研究开发与实践/第四周作业/6/action.jsp) 。
+第 7 题的 (2)、(3) 小题主要是使用 JSP 的 JSTL 标签进行数据库的操作。
+
+#### 1) 直接使用 SQL 语句插入数据
+
+向数据库插入数据的标签主要是 [`<sql:update>`](http://www.runoob.com/jsp/jstl-sql-update-tag.html)。
+
+使用示如下：
+
+```
+<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
+     url="jdbc:mysql://localhost/school"
+     user="root"  password="root"/>
+
+<sql:update dataSource="${mysql}" var="count">
+   INSERT INTO `student` VALUES (null, '小木', '女', '19');
+</sql:update>
+```
+
+其中 `<sql:update>` 和 `</sql:update>` 标签里面就是 SQL 语句。该 SQL 语句如果执行成功，就会返回插入的行数，并将返回的结果存入 `var` 定义的 `count` 变量。比如上面的语句，是插入一行数据，所以会返回 `1`，也就是插入成功后，`count` 的值就为 `1`。
+
+
+#### 2) 在 SQL 语句中通过占位符来使用变量
+
+上面的例子中，`VALUES` 的值都是已经写好的字符串，但大多时候，我们需要插入的数据都是一个变量。要插入变量，我们就需要使用到 [`<sql:param>`](http://www.runoob.com/jsp/jstl-sql-param-tag.html) 这个标签。
+
+先来看下面的代码：
+
+```
+<% 
+String name="小木"; 
+String sex = "女";
+int age = "19";
+%>
+
+<sql:update dataSource="${mysql}" var="count">
+   INSERT INTO `student` VALUES (null, ?, ?, ?);
+   <sql:param value="<%= name %>" />
+   <sql:param value="<%= sex %>" />
+   <sql:param value="<%= age %>" />
+</sql:update>
+```
+
+`<%` 和 `%>` 里面的代码，主要是进行一些变量的初始化，当然这些变量也可以通过 `request.getParameter()` 方法来获取由前端通过 `GET` 或 `POST` 传来的数据。
+
+然后我们再来对比一下这里和之前的的 `<sql:update>` 标签里面的内容，不难发现这里的 `VALUES` 后面的值变成了 `?`，同时还多了 3 个 `<sql:param>` 标签。
+
+这里的 `?` 就是占位符；而 `<sql:param>` 的 `value` 的值，就是设置占位符的值。三个 `<sql:param>` 和三个 `?` 是按顺序一一对应的。当然，如果有四个或更多的占位符，也是一样的道理。这里还需要注意的一点是，`VALUES` 后面的括号里面的值的顺序，也必须和数据库表的字段名顺序一一对应，不然就可能出现把 `name` 插入 `age` 字段，或者由于类型不对而无法正确执行 SQL 语句。
+
+
+#### 3) 另一个插入语句
+
+前面我们插入语句使用的是 `INSERT INTO student VALUSE (null, '小木', '女', '19');` 的方式。在 MySQL 中我们还有一种插入数据的 SQL 语句：
+
+```
+INSERT INTO student SET id=null,name="小木",sex="女",age="19";
+```
+
+如果使用占位符的话，同样可以：
+
+```
+INSERT INTO student SET id=null,name=?,sex=?,age=?;
+```
+
+如果这样写的话，就可以避免前面提到的占位符和据库字段顺序不一致而插入失败的问题。这样写，就只需要我们的 `<sql:param>` 的值和 `SET` 后面的 `?` 所代表的字段值一一对应即可，而不用担心 这里的 `id,name,sex,age` 和数据库里面的字段顺序是否一致。
+
+#### 4) 代码示例
+
+
+第 7 题 (2) 参考： [/class/nodejh/研究开发与实践/第四周作业/7_2](/class/nodejh/研究开发与实践/第四周作业/7_2/add.jsp)。
+
+第 7 题 (3) 参考：
+
 
 
