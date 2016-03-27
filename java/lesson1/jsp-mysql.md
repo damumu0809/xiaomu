@@ -72,20 +72,21 @@ mysql> create database school default character set utf8;
 mysql> use school;
 mysql> create table student
     (
-     id int not null,
+     id int not null auto_increment,
      age int not null,
      name varchar (255),
-     sex varchar (10)
-    ); 
+     sex varchar (10),
+     PRIMARY KEY  (`id`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8; 
 ```
 
 接下来再往 `student` 表里面插入一些数据：
 
 ```
-mysql> INSERT INTO student VALUES (100, 18, '小王', '男');
-mysql> INSERT INTO student VALUES (101, 20, '小红', '女');
-mysql> INSERT INTO student VALUES (102, 19, '小明', '男');
-mysql> INSERT INTO student VALUES (102, 20, '小小', '女');
+mysql> INSERT INTO student VALUES (null, 18, '小王', '男');
+mysql> INSERT INTO student VALUES (null, 20, '小红', '女');
+mysql> INSERT INTO student VALUES (null, 19, '小明', '男');
+mysql> INSERT INTO student VALUES (null, 20, '小小', '女');
 ```
 
 
