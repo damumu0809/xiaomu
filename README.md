@@ -17,6 +17,6 @@
 | 2016.03.25 | 1.[通过AJAX请求数据](./java/lesson1/use-ajax-get-json.md)<br/>2.[JSP访问数据库](./java/lesson1/jsp-mysql.md) <br/>3.学习Node.js异步爬虫|是|Good Job！别睡太晚好好休息～（！补充：我以为是在学习，结果是在看剧😂）|
 | 2016.03.26 | 1.[通过AJAX请求数据](./java/lesson1/use-ajax-get-json.md)<br/>2.[JSP访问数据库](./java/lesson1/jsp-mysql.md) <br/>3.学习Node.js异步爬虫|否|在床上呆了一天|
 | 2016.03.27 | 1.[通过AJAX请求数据](./java/lesson1/use-ajax-get-json.md)<br/>2.[JSP访问数据库](./java/lesson1/jsp-mysql.md)|是|学习了一整个下午👏|
-| 2016.03.28 | 1.[JSTL连接数据库](./java/lesson1/third-week-homework.md)<br/>2.学习Node.js异步爬虫|||
-
+| 2016.03.28 | 1.[JSTL连接数据库](./java/lesson1/third-week-homework.md)<br/>2.学习Node.js异步爬虫|是||
+| 2016.03.29 | 1.学习Node.js异步爬虫|||
 
