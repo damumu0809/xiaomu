@@ -19,7 +19,7 @@ int age = Integer.parseInt(request.getParameter("age"));
 
 
 <sql:setDataSource var="mysql" driver="com.mysql.jdbc.Driver"
-	url="jdbc:mysql://localhost/school"
+	url="jdbc:mysql://localhost/school?useUnicode=true&characterEncoding=UTF-8"
 	user="root" password="root" />
 
 <sql:update dataSource="${mysql}" var="result">
