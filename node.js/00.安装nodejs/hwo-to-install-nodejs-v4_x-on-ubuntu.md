@@ -20,7 +20,7 @@ curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-然后使用
+然后就可以使用 `nodejs -v` 再看看当前的 Node.js 版本，看看是不是 `v4.4.1`，然后使用 `npm -v`看看是不是 `v2.14.20`。
 
 参考：
 
