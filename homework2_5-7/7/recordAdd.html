@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>添加学生信息</title>
+	<meta charset="utf-8"/>
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body >
+	<form id="form">
+		<input type="text" id="name" name="name" placeholder="请输入学生姓名" />
+		</br>
+		性别
+		<input type="radio" name="sex" value="男"/>男
+		<input type="radio" name="sex" value="女"/>女
+		</br>
+		年龄
+		<select id="select" name="age">
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+		</select>
+		<button type="button"  id="button">添加</button>
+	</form>
+
+	<script type="text/javascript">
+	var name=$("#name").val();
+	var  sex=$('#form input[name="sex"]:checked').val();
+	var age=$("#select option:checked").val();
+		var data={name:name,
+			     sex:sex,
+			     age:age
+			}
+
+		console.log(data);
+
+
+		$("#button").click(function(){
+			$.post("data_action.jsp", data, function(res){
+				console.log(res);
+				var result = $.parseJSON(res);
+				alert(result.message);
+			});		
+		});
+</script>
+
+</body>
+</html>
