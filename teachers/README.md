@@ -2,7 +2,7 @@
 
 ### 0. 安装 Node.js v4
 
-参考: `/xiaomu/node.js/00.安装nodejs/hwo-to-install-nodejs-v4_x-on-ubuntu.md
+参考: `/xiaomu/node.js/00.安装nodejs/hwo-to-install-nodejs-v4_x-on-ubuntu.md`
 
 ### 1. 复制 `raw.js` 到对应的 `学校/学院/raw.js` 
 
@@ -17,6 +17,7 @@ CP ../../raw.js .
 + 第9行 teacherListPageUrls 改为对应的教师姓名页面的链接数组.不清楚的话,可以打开示例程序中对应的链接查看
 + 第23行 teacherUrlElement 教师链接DOM节点.不清楚的话,可以找到对应节点查看
 + 第25行 teacherResumeElement 教师简历DOM节点.不清楚的话,可以找到对应节点查看
++ 如果出现**乱码**，则将第 100 行和第 120 行的注释取消即可
 
 ### 3. 运行 
 
