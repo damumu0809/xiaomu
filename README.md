@@ -19,5 +19,7 @@
 | 2016.03.27 | 1.[通过AJAX请求数据](./java/lesson1/use-ajax-get-json.md)<br/>2.[JSP访问数据库](./java/lesson1/jsp-mysql.md)|是|学习了一整个下午👏|
 | 2016.03.28 | 1.[JSTL连接数据库](./java/lesson1/third-week-homework.md)<br/>2.学习Node.js异步爬虫|是||
 | 2016.03.29 | 1.学习Node.js异步爬虫|是|布置任务有问题。实际完成了JSP与数据库的交互，模板的汉化，jQuery分页|
-| 2016.03.30| 1.[Node.js异步控制](./node.js/05.使用eventproxy控制并发)<br/>2.了解BootStrap|||
+| 2016.03.30| 1.[Node.js异步控制](./node.js/05.使用eventproxy控制并发)<br/>2.了解BootStrap|是|最近学习了太多知识，每天都很忙写了很多代码，太辛苦啦！|
+| 2016.03.31| 1.阅读《JavaScript高级程序设计》|||
+
 
