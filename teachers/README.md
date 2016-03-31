@@ -1,5 +1,8 @@
 ## 爬取说明
 
+### 0. 安装 Node.js v4
+
+参考: `/xiaomu/node.js/00.安装nodejs/hwo-to-install-nodejs-v4_x-on-ubuntu.md
 
 ### 1. 复制 `raw.js` 到对应的 `学校/学院/raw.js` 
 
