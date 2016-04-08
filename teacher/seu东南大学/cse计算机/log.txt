@@ -1,0 +1,4 @@
+fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=125 successful
+fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=123 successful
+fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=122 successful
+fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=119 successful
