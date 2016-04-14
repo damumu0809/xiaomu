@@ -34,5 +34,5 @@
 | 2016.04.11|[1.《JavaScript高级程序设计》5.4](/javascript/第五章引用类型/第五章引用类型题目.md)<br/>2.聊天室界面|是||
 | 2016.04.12|[1.《JavaScript高级程序设计》5.5-5.6](/javascript/第五章引用类型/第五章引用类型题目.md)<br/>~~2.分析飞扬研发招新网页漏洞~~|是||
 | 2016.04.13|[1.第五章引用类型题目](/javascript/第五章引用类型/第五章引用类型题目.md)<br/>2.分析飞扬研发招新网页漏洞<br/>[3.了解 Github issue 的使用，并关闭打开的issue](https://github.com/damumu0809/xiaomu/issues)|是|瞬间对Android很感兴趣，加油！|
-| 2016.04.13|Android|||
+| 2016.04.14|Android|||
 
