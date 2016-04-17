@@ -104,7 +104,7 @@ $ node app.js
 
 
 
-在 `public/` 目录新建一个 `menu.js`，然后在 `views/index.ejs` 的 `<script src="./js/jquery.func.js" type="text/javascript"></script>` 下面引入 `menu.js`：
+在 `public/js/` 目录新建一个 `menu.js`，然后在 `views/index.ejs` 的 `<script src="./js/jquery.func.js" type="text/javascript"></script>` 下面引入 `menu.js`：
 
 ```
 <script src="./js/menu.js" type="text/javascript"></script>
