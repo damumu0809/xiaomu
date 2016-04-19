@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>室内装修公司网站模板</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
+ <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='js/camera.min.js'></script> 
+     <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+
+			jQuery('#camera_wrap_2').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true
+			});
+		});
+	</script>
+
+ <script type="text/javascript">
+ 	function addStudent(){
+
+ 		var data = {
+ 			type:student
+ 		};
+ 		$.post("get.jsp", data, function(res){
+ 			console.log(res);
+ 			var obj = $.parseJson(res);
+ 		});
+ 		var studentMenu = 
+ 			'<li><a href=' + obj.href1 '>' +obj.menu1</a></li>'+
+                		'<li><a href="obj.">服务</a></li>'
+               		'<li><a href="contact.html">联系我们</a></li>
+
+ 		document.getElementById('menu').innerHTML=studentMenu;
+ 	}
+ 	// function addTeacher(){
+ 	// 	document.getElementById('menu').innerHTML=teacherMenu;
+ 	// }
+
+
+/**
+你通过 给 button 添加一个 onclick 事件，来调用某个函数，这种方式也挺好的。
+
+还有一种方式是，给 button 添加一个 id，然后通过 id 获取到该id所在的html元素，再然后监听该元素的点击事件。
+这样的话，就把js和html完全分离开来。
+
+具体实现如下：
+
+$('#id').click(function () {
+	// 表示监听 #id 所在元素的点击事件。如果该元素被点击，则调用回调函数。
+})
+
+还有一种写法，效果完全一样：
+
+$('#id').on('click', function() {
+	
+})
+
+
+*/
+
+
+
+ </script>
+</head>
+<body>
+<div class="wrap">
+<div class="header">
+	<div class="logo">
+	  		<!-- <a href="index.html"><img src="images/logo.png" title="logo" alt=""> </a> -->
+	  		<button onclick = "addStudent()">学生</button>
+	 		<button onclick = "addTeacher()">教师</button>
+	 </div>
+
+
+	 <div class="hdr-nav">
+  		<ul class="nav" id="menu">
+  	 		<!-- <li class="active"><a href="#">主页</a></li>  -->
+                		<!-- <li><a class="hsubs" href="about.html">关于我们</a></li>
+                		<li><a class="hsubs" href="service.html">服务</a></li>
+               		 <li><a href="contact.html">联系我们</a></li> -->
+                		<!-- <div id="lavalamp"></div> -->
+           	 	</ul>
+	</div> 
+
+	<div class="clear"></div>
+</div>
+<div class="slider">
+	<div class="fluid_container">
+           <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="images/slides/thumbs/slider1.jpg" data-src="images/slides/slider1.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/slider2.jpg" data-src="images/slides/slider2.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/slider3.jpg" data-src="images/slides/slider3.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    <em>It's completely free</em> (even if a donation is appreciated)
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/slider4.jpg" data-src="images/slides/slider4.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Camera slideshow provides many options <em>to customize your project</em> as more as possible
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/slider5.jpg" data-src="images/slides/slider5.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> 
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/slider6.jpg" data-src="images/slides/slider6.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+        </div><!-- #camera_wrap_1 -->
+    <div style="clear:both; display:block; height:100px"></div>
+</div>
+</div>
+<div class="text">
+		<div class="text-h">
+			<h2>Lorem Ipsum is&nbsp;<b>simply dummy</b></h2>
+			<h3>Lorem Ipsum has been the industry's standard dummy text Lorem ipsum dolor sit amet, consectetur adipisicing elit,Lorem ipsum dolor sit amet, consectetur elit,</h3>
+		</div>
+		<div class="text-b">
+			<div class="btn">
+				<a href="">更多信息</a>
+			</div>
+			</div>
+			<div class="clear"></div>
+</div>
+<div class="section group">
+				<div class="col_1_of_4 span_1_of_4">
+					<h3>Lorem Ipsum is simply dummy </h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<a href="details.html"><img src="images/pic1.jpg" /></a>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<a href="details.html"><img src="images/pic2.jpg"></a>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<a href="details.html"><img src="images/pic3.jpg" /></a>
+				</div>
+			</div>
+<div class="text1">
+		<div class="text-h">
+			<h2>Lorem Ipsum is&nbsp;<b>simply dummy</b></h2>
+			<h3>Lorem Ipsum has been the industry's standard dummy text Lorem ipsum dolor sit amet, consectetur adipisicing elit,Lorem ipsum dolor sit amet,</h3>
+		</div>
+		<div class="text-b">
+			<div class="btn">
+				<a href="">阅读更多</a>
+			</div>
+			</div>
+			<div class="clear"></div>
+</div>
+<div class="section group">
+				<div class="listview_1_of_2 images_1_of_2">
+					<div class="listimg listimg_2_of_1">
+						 <a href="details.html"><img src="images/pic4.jpg"></a>
+					</div>
+				    <div class="list_2_of_1-text list_2_of_1">
+						<h3>Lorem Ipsum is simply</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+						<div class="button"><span><a href="#">Read More</a></span></div>
+				   </div>
+			   </div>			
+				<div class="listview_1_of_2 images_1_of_2">
+					<div class="listimg listimg_2_of_1">
+						  <a href="details.html"><img src="images/pic5.jpg"></a>
+					</div>
+					<div class="list_2_of_1-text list_2_of_1">
+						  <h3>Lorem Ipsum is simply</h3>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+						  <div class="button"><span><a href="#">Read More</a></span></div>
+					</div>
+				</div>
+			</div>
+<div class="footer">
+	<div class="section group">
+				<div class="col_1_of_3 span_1_of_3">
+					<h3>关于&nbsp;<b>装修</b></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore.Lorem ipsum dolor sit amet,</p>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<h3>邮件&nbsp;<b>列表</b></h3>
+				<form class="search-f">
+					<input type="text" placeholder="在这里搜索…" required>
+					<button type="submit">搜索</button>
+				</form>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<h3>联系&nbsp;<b>我们</b></h3>
+					<div class="address">
+				     	<p>500 Lorem Ipsum Dolor Sit,</p>
+						<p>22-56-2-9 Sit Amet, Lorem,</p>
+						<p>USA</p>
+				   		<p>Phone:(00) 222 666 444</p>
+				   		<p>Fax: (000) 000 00 00 0</p>
+				 	</div>
+				</div>
+			</div>
+</div>
+<div class="footer1">
+<div class="container">
+	<p class="w3-link"><span>Copyright &copy; 2014.Company name All rights reserved.</span></p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
