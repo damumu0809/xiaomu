@@ -1,4 +1,5 @@
 .DS_Store
+node_modules
 .idea/
-project/chatrooms/node_modules/
-project/chat/node_modules/
+class/xiaomu/menu/node_modules/
+
