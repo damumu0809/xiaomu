@@ -1,4 +1,1032 @@
+fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=122 successful
+fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=124 successful
 fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=125 successful
 fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=123 successful
-fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=122 successful
+fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=121 successful
 fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=119 successful
+fetch: http://arch.seu.edu.cn/home/faculty.php?did=57&id=120 successful
+所有教师列表:
+[ { name: '高祥生',
+    href: 'http://arch.seu.edu.cn/pages.php?did=122&id=215' },
+  { name: '赵军',
+    href: 'http://arch.seu.edu.cn/pages.php?did=122&id=216' },
+  { name: '赵思毅',
+    href: 'http://arch.seu.edu.cn/pages.php?did=122&id=217' },
+  { name: '曾琼',
+    href: 'http://arch.seu.edu.cn/pages.php?did=122&id=218' },
+  { name: '张蕾',
+    href: 'http://arch.seu.edu.cn/pages.php?did=122&id=219' },
+  { name: '朱丹',
+    href: 'http://arch.seu.edu.cn/pages.php?did=122&id=220' },
+  { name: '沈颖',
+    href: 'http://arch.seu.edu.cn/pages.php?did=122&id=222' },
+  { name: '陈薇',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=237' },
+  { name: '周琦',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=238' },
+  { name: '诸葛净',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=239' },
+  { name: '葛明',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=240' },
+  { name: '汪晓茜',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=241' },
+  { name: '李华',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=242' },
+  { name: '胡石',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=243' },
+  { name: '白颖',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=244' },
+  { name: '李新建',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=245' },
+  { name: '沈旸',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=246' },
+  { name: '贾亭立',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=247' },
+  { name: '王为',
+    href: 'http://arch.seu.edu.cn/pages.php?did=124&id=248' },
+  { name: '李飚',
+    href: 'http://arch.seu.edu.cn/pages.php?did=125&id=511' },
+  { name: '胡明星',
+    href: 'http://arch.seu.edu.cn/pages.php?did=125&id=249' },
+  { name: '钱敬平',
+    href: 'http://arch.seu.edu.cn/pages.php?did=125&id=250' },
+  { name: '虞刚',
+    href: 'http://arch.seu.edu.cn/pages.php?did=125&id=251' },
+  { name: '杜嵘',
+    href: 'http://arch.seu.edu.cn/pages.php?did=125&id=252' },
+  { name: '彭冀',
+    href: 'http://arch.seu.edu.cn/pages.php?did=125&id=253' },
+  { name: '华好',
+    href: 'http://arch.seu.edu.cn/pages.php?did=125&id=254' },
+  { name: '杨维菊',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=223' },
+  { name: '张宏',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=224' },
+  { name: '吴雁',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=225' },
+  { name: '方立新',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=226' },
+  { name: '傅秀章',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=227' },
+  { name: '李海清',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=228' },
+  { name: '石邢',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=229' },
+  { name: '彭昌海',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=230' },
+  { name: '淳庆',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=231' },
+  { name: '闵鹤群',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=232' },
+  { name: '李永辉',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=233' },
+  { name: '金星',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=234' },
+  { name: '张旭',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=235' },
+  { name: '张弦',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=236' },
+  { name: '戴航',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=377' },
+  { name: '陆可人',
+    href: 'http://arch.seu.edu.cn/pages.php?did=123&id=378' },
+  { name: '成玉宁',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=202' },
+  { name: '郑炘',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=203' },
+  { name: '陈烨',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=204' },
+  { name: '杨冬辉',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=205' },
+  { name: '王晓俊',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=206' },
+  { name: '李雱',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=207' },
+  { name: '谭瑛',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=208' },
+  { name: '李哲',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=209' },
+  { name: '姚准',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=210' },
+  { name: '陈洁萍',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=211' },
+  { name: '顾凯',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=212' },
+  { name: '周聪惠',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=213' },
+  { name: '徐宁',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=214' },
+  { name: '唐军',
+    href: 'http://arch.seu.edu.cn/pages.php?did=121&id=542' },
+  { name: '钟训正',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=127' },
+  { name: '王建国',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=128' },
+  { name: '韩冬青',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=131' },
+  { name: '龚恺',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=132' },
+  { name: '钱强',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=134' },
+  { name: '张彤',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=135' },
+  { name: '冷嘉伟',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=136' },
+  { name: '周颖',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=137' },
+  { name: '刘捷',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=139' },
+  { name: '王静',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=140' },
+  { name: '吴锦绣',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=141' },
+  { name: '邓浩',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=142' },
+  { name: '薛力',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=143' },
+  { name: '俞传飞',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=144' },
+  { name: '鲍莉',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=145' },
+  { name: '杨靖',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=146' },
+  { name: '朱雷',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=147' },
+  { name: '张玫英',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=148' },
+  { name: '陈宇',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=150' },
+  { name: '徐小东',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=151' },
+  { name: '史永高',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=152' },
+  { name: '唐芃',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=153' },
+  { name: '马进',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=154' },
+  { name: '孙茹雁',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=155' },
+  { name: '陈秋光',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=156' },
+  { name: '屠苏南',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=157' },
+  { name: '王海宁',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=158' },
+  { name: '夏兵',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=159' },
+  { name: '王正',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=160' },
+  { name: '张彧',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=161' },
+  { name: '陈晓扬',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=162' },
+  { name: '杨志疆',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=163' },
+  { name: '李向锋',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=164' },
+  { name: '张嵩',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=165' },
+  { name: '顾震弘',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=166' },
+  { name: '郭菂',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=167' },
+  { name: '蔡凯臻',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=168' },
+  { name: '韩晓峰',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=169' },
+  { name: '朱渊',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=170' },
+  { name: '唐斌',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=171' },
+  { name: '马骏华',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=172' },
+  { name: '焦键',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=173' },
+  { name: '张愚',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=174' },
+  { name: '单踊',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=379' },
+  { name: '李飚',
+    href: 'http://arch.seu.edu.cn/pages.php?did=119&id=523' },
+  { name: '段进',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=175' },
+  { name: '孔令龙',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=176' },
+  { name: '阳建强',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=177' },
+  { name: '董卫',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=178' },
+  { name: '刘博敏',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=179' },
+  { name: '李百浩',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=180' },
+  { name: '王兴平',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=181' },
+  { name: '吴晓',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=182' },
+  { name: '孙世界',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=183' },
+  { name: '熊国平',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=184' },
+  { name: '高源',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=185' },
+  { name: '王承慧',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=186' },
+  { name: '杨俊宴',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=187' },
+  { name: '巢耀明',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=188' },
+  { name: '权亚玲',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=189' },
+  { name: '王海卉',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=190' },
+  { name: '徐春宁',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=191' },
+  { name: '雒建利',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=192' },
+  { name: '张倩',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=193' },
+  { name: '朱彦东',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=194' },
+  { name: '周文竹',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=195' },
+  { name: '陶岸君',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=196' },
+  { name: '江泓',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=197' },
+  { name: '易鑫',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=198' },
+  { name: '陈晓东',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=199' },
+  { name: '马晓甦',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=200' },
+  { name: '殷铭',
+    href: 'http://arch.seu.edu.cn/pages.php?did=120&id=201' } ]
+fetch: http://arch.seu.edu.cn/pages.php?did=125&id=249 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=125&id=250 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=243 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=238 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=248 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=225 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=122&id=219 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=122&id=217 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=122&id=216 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=240 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=237 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=122&id=215 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=122&id=218 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=239 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=244 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=247 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=125&id=251 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=122&id=220 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=125&id=254 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=125&id=253 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=226 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=122&id=222 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=242 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=227 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=230 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=224 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=223 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=235 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=377 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=202 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=125&id=252 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=204 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=234 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=206 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=203 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=207 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=378 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=542 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=229 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=236 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=211 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=241 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=245 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=231 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=232 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=205 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=124&id=246 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=228 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=125&id=511 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=208 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=212 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=210 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=209 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=123&id=233 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=127 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=213 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=132 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=121&id=214 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=139 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=136 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=131 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=128 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=137 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=140 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=134 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=141 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=142 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=143 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=135 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=146 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=145 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=147 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=144 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=148 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=161 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=156 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=158 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=153 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=160 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=155 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=151 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=152 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=154 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=159 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=157 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=163 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=167 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=162 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=168 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=164 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=165 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=166 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=169 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=174 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=170 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=171 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=172 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=173 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=523 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=175 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=183 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=179 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=379 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=178 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=180 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=185 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=176 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=177 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=184 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=186 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=182 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=188 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=181 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=189 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=191 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=190 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=193 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=195 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=192 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=194 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=197 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=196 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=199 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=201 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=119&id=150 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=198 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=187 successful!
+fetch: http://arch.seu.edu.cn/pages.php?did=120&id=200 successful!
+write file success
+http://arch.seu.edu.cn/pages.php?did=125&id=249
+240
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=125&id=250
+2426
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=243
+102
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=238
+889
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=248
+95
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=225
+95
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=122&id=219
+1337
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=122&id=217
+838
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=122&id=216
+7405
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=240
+1504
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=237
+2205
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=122&id=215
+5586
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=122&id=218
+1784
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=239
+2146
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=244
+1586
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=247
+686
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=125&id=251
+4086
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=122&id=220
+2199
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=125&id=254
+813
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=125&id=253
+2877
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=226
+485
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=122&id=222
+2571
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=242
+887
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=227
+1908
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=230
+3032
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=224
+2735
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=223
+8298
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=235
+766
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=377
+2669
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=202
+1748
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=125&id=252
+1640
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=204
+3831
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=234
+954
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=206
+1267
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=203
+8154
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=207
+5923
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=378
+1070
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=542
+2358
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=229
+1491
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=236
+1347
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=211
+1463
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=241
+12826
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=245
+17013
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=231
+14193
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=232
+10554
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=205
+4379
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=124&id=246
+11423
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=228
+14375
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=125&id=511
+10152
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=208
+3651
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=212
+6136
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=210
+2149
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=209
+1008
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=123&id=233
+8941
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=127
+3041
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=213
+8012
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=132
+7106
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=121&id=214
+5685
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=139
+8839
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=136
+5643
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=131
+8061
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=128
+3993
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=137
+9006
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=140
+7444
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=134
+4150
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=141
+16374
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=142
+5856
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=143
+5646
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=135
+11357
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=146
+8069
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=145
+16921
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=147
+9899
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=144
+13626
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=148
+3975
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=161
+10302
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=156
+1405
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=158
+2056
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=153
+9662
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=160
+4763
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=155
+12207
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=151
+15420
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=152
+7335
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=154
+8235
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=159
+11486
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=157
+706
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=163
+4492
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=167
+6681
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=162
+7688
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=168
+3593
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=164
+5421
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=165
+1051
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=166
+3425
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=169
+8221
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=174
+5939
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=170
+9361
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=171
+2197
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=172
+2780
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=173
+5326
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=523
+10093
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=175
+28288
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=183
+5408
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=179
+11174
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=379
+2720
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=178
+95
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=180
+1341
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=185
+6718
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=176
+8258
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=177
+19854
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=184
+22729
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=186
+11585
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=182
+38787
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=188
+7324
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=181
+28596
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=189
+2793
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=191
+6028
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=190
+5879
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=193
+4193
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=195
+4373
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=192
+6905
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=194
+10855
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=197
+5068
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=196
+5595
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=199
+6252
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=201
+95
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=119&id=150
+6971
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=198
+13284
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=187
+16619
+
+
+write file success
+http://arch.seu.edu.cn/pages.php?did=120&id=200
+11806
+
+
