@@ -7,6 +7,7 @@ module.exports = function(app) {
   app.post('/menu', function (req, res) {
 
     var type = req.body.type;
+
     console.log(type);
     req.getConnection(function(err, connection) {
 

@@ -47,8 +47,10 @@ $('#login').on('click', function() {
 // 根据不同的类型获取菜单并显示
 function show_menu(type) {
   var data = {
-    type: type
+    type: type,
+    a: 'dddd'
   };
+
   $.post('/menu', data, function(res) {
     console.log(res);
     if (res.code == 0) {
