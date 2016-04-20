@@ -40,7 +40,7 @@
 |2016.04.17|[1.学习使用express搭建一个简单的博客](./node.js/06.使用express+mongodb搭建多人博客)<br>[2.研究开发与实践第七周作业](./class/nodejh/研究开发与实践/第七周作业/menu)|🤔||
 |2016.04.18|[1.学习使用express搭建一个简单的博客](./node.js/06.使用express+mongodb搭建多人博客)<br>[2.研究开发与实践第七周作业](./class/nodejh/研究开发与实践/第七周作业/menu)|是||
 |2016.04.19|[1.使用Node.js完成前后端数据交互](./node.js/使用Node.js完成前后端数据交互/README.md)|是！用Node.js完成了研究开发与实践的作业||
-|2016.04.20|1.深入理解Session和Cookie|||
-|2016.04.21|1.深入理解Session和Cookie|||
+|2016.04.20|1.简单了解Cookie和Session|||
+|2016.04.21|1.深入理解Cookie和Session|||
 
 
