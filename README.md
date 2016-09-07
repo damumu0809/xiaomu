@@ -1,5 +1,10 @@
 ## TO DO LIST 
 
+```
+目标: 前端/全栈工程师
+技能: JavaScript/Node.js/React.js/Angular.js/Vue.js/React Native/Java
+```
+
 | 日期 | 任务 | 是否当天完成 | 备注 |
 |:---:|:---|:---:|:---|
 | 2016.03.13 | 1.在 Ubuntu 下配置 Tomcat 开发环境<br/>2.在 Ubuntu 下配置 JAVA 开发环境 | 是 |超额完成任务，赞！ |
@@ -76,4 +81,5 @@
 |2016.05.30|写代码|是||
 |2016.05.31|spring boot project|是||
 |2016.06.13|研究开发与实践博客功能|||
+|2016.09.08|1.初识 Webpack <br/> 2.略读《JavaScript高级程序设计》第六章<br/> [查看详情](./todo/2016-09-08.md)|||
 
