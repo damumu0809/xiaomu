@@ -82,6 +82,7 @@
 |2016.05.31|spring boot project|是||
 |2016.06.13|研究开发与实践博客功能|||
 |2016.09.08|1.初识 Webpack <br/> 2.略读《JavaScript高级程序设计》第六章<br/> [查看详情](./todo/2016-09-08.md)|是||
-|2016.09.08|1. Start React with Webpack <br/> 2.粗略阅读《JavaScript高级程序设计》第八、九、十章<br/> [查看详情](./todo/2016-09-09.md)|||
+|2016.09.09|1. Start React with Webpack <br/> 2.粗略阅读《JavaScript高级程序设计》第八、九、十章<br/> [查看详情](./todo/2016-09-09.md)|否||
+|2016.09.10|1. 完成昨天未完成的任务 <br/> 2. 搭建 React Native 开发环境 <br/> [查看详情](./todo/2016-09-10.md)|||
 
 
